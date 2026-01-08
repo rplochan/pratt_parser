@@ -1,1 +1,1 @@
-pratt
+A handwritten pratt_parser implemented using C++. Focusing on compiler aspects such as lexical analysis and parsing.
