@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 
-enum class TokenType {
+enum class token_type {
     identifier,
     number,
     plus, //  +
@@ -15,8 +15,8 @@ enum class TokenType {
     EndOfFile
 }; 
 
-struct Token {
-    TokenType type; // type_of_token
+struct token {
+    token_type type; // type_of_token
     std::string lexeme; // substring
     double number = 0; // only for number tokens
 };
