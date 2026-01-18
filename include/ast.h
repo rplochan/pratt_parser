@@ -33,7 +33,7 @@ class binary_expr : public expression {
     token_type op;
     expr_ptr left;
     expr_ptr right;
-
+     
     binary_expr(token_type op, expr_ptr left, expr_ptr right){
         this->op = op;
         this->left = std::move(left);
